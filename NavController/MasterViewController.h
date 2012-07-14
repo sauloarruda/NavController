@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  MasterViewController.h
 //  NavController
 //
 //  Created by Saulo Arruda Coelho on 7/4/12.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface MasterViewController : UIViewController
 
 @end

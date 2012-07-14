@@ -13,8 +13,12 @@
 		9F66756C15A516BB0061BAE9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9F66756A15A516BB0061BAE9 /* InfoPlist.strings */; };
 		9F66756E15A516BB0061BAE9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F66756D15A516BB0061BAE9 /* main.m */; };
 		9F66757215A516BB0061BAE9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F66757115A516BB0061BAE9 /* AppDelegate.m */; };
-		9F66757515A516BB0061BAE9 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F66757315A516BB0061BAE9 /* MainStoryboard.storyboard */; };
-		9F66757815A516BB0061BAE9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F66757715A516BB0061BAE9 /* ViewController.m */; };
+		9F66757515A516BB0061BAE9 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F66757315A516BB0061BAE9 /* MainStoryboard_iPhone.storyboard */; };
+		9F66758015A519A40061BAE9 /* PadawanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F66757F15A519A40061BAE9 /* PadawanViewController.m */; };
+		9F66758415A51B840061BAE9 /* obi_wan_kenobi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9F66758315A51B840061BAE9 /* obi_wan_kenobi.jpg */; };
+		9F66758715A529750061BAE9 /* ObiWanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F66758615A529750061BAE9 /* ObiWanViewController.m */; };
+		9F66758915A52ADA0061BAE9 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F66758815A52ADA0061BAE9 /* MainStoryboard_iPad.storyboard */; };
+		9F66758C15A52B9A0061BAE9 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F66758B15A52B9A0061BAE9 /* MasterViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +26,21 @@
 		9F66756115A516BA0061BAE9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		9F66756315A516BA0061BAE9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		9F66756515A516BB0061BAE9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		9F66756915A516BB0061BAE9 /* NavController-Info.plist */ = {isa = PBXFileReference; path = "NavController-Info.plist"; sourceTree = "<group>"; };
+		9F66756915A516BB0061BAE9 /* NavController-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NavController-Info.plist"; sourceTree = "<group>"; };
 		9F66756B15A516BB0061BAE9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9F66756D15A516BB0061BAE9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		9F66756F15A516BB0061BAE9 /* NavController-Prefix.pch */ = {isa = PBXFileReference; path = "NavController-Prefix.pch"; sourceTree = "<group>"; };
-		9F66757015A516BB0061BAE9 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		9F66756F15A516BB0061BAE9 /* NavController-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NavController-Prefix.pch"; sourceTree = "<group>"; };
+		9F66757015A516BB0061BAE9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9F66757115A516BB0061BAE9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		9F66757415A516BB0061BAE9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		9F66757615A516BB0061BAE9 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
-		9F66757715A516BB0061BAE9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9F66757415A516BB0061BAE9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		9F66757E15A519A40061BAE9 /* PadawanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PadawanViewController.h; sourceTree = "<group>"; };
+		9F66757F15A519A40061BAE9 /* PadawanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PadawanViewController.m; sourceTree = "<group>"; };
+		9F66758315A51B840061BAE9 /* obi_wan_kenobi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = obi_wan_kenobi.jpg; sourceTree = "<group>"; };
+		9F66758515A529750061BAE9 /* ObiWanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObiWanViewController.h; sourceTree = "<group>"; };
+		9F66758615A529750061BAE9 /* ObiWanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObiWanViewController.m; sourceTree = "<group>"; };
+		9F66758815A52ADA0061BAE9 /* MainStoryboard_iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		9F66758A15A52B9A0061BAE9 /* MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		9F66758B15A52B9A0061BAE9 /* MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,12 +87,18 @@
 		9F66756715A516BB0061BAE9 /* NavController */ = {
 			isa = PBXGroup;
 			children = (
+				9F66758315A51B840061BAE9 /* obi_wan_kenobi.jpg */,
 				9F66757015A516BB0061BAE9 /* AppDelegate.h */,
 				9F66757115A516BB0061BAE9 /* AppDelegate.m */,
-				9F66757315A516BB0061BAE9 /* MainStoryboard.storyboard */,
-				9F66757615A516BB0061BAE9 /* ViewController.h */,
-				9F66757715A516BB0061BAE9 /* ViewController.m */,
+				9F66757315A516BB0061BAE9 /* MainStoryboard_iPhone.storyboard */,
 				9F66756815A516BB0061BAE9 /* Supporting Files */,
+				9F66757E15A519A40061BAE9 /* PadawanViewController.h */,
+				9F66757F15A519A40061BAE9 /* PadawanViewController.m */,
+				9F66758515A529750061BAE9 /* ObiWanViewController.h */,
+				9F66758615A529750061BAE9 /* ObiWanViewController.m */,
+				9F66758815A52ADA0061BAE9 /* MainStoryboard_iPad.storyboard */,
+				9F66758A15A52B9A0061BAE9 /* MasterViewController.h */,
+				9F66758B15A52B9A0061BAE9 /* MasterViewController.m */,
 			);
 			path = NavController;
 			sourceTree = "<group>";
@@ -150,7 +166,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F66756C15A516BB0061BAE9 /* InfoPlist.strings in Resources */,
-				9F66757515A516BB0061BAE9 /* MainStoryboard.storyboard in Resources */,
+				9F66757515A516BB0061BAE9 /* MainStoryboard_iPhone.storyboard in Resources */,
+				9F66758415A51B840061BAE9 /* obi_wan_kenobi.jpg in Resources */,
+				9F66758915A52ADA0061BAE9 /* MainStoryboard_iPad.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,7 +181,9 @@
 			files = (
 				9F66756E15A516BB0061BAE9 /* main.m in Sources */,
 				9F66757215A516BB0061BAE9 /* AppDelegate.m in Sources */,
-				9F66757815A516BB0061BAE9 /* ViewController.m in Sources */,
+				9F66758015A519A40061BAE9 /* PadawanViewController.m in Sources */,
+				9F66758715A529750061BAE9 /* ObiWanViewController.m in Sources */,
+				9F66758C15A52B9A0061BAE9 /* MasterViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -178,12 +198,12 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		9F66757315A516BB0061BAE9 /* MainStoryboard.storyboard */ = {
+		9F66757315A516BB0061BAE9 /* MainStoryboard_iPhone.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				9F66757415A516BB0061BAE9 /* en */,
 			);
-			name = MainStoryboard.storyboard;
+			name = MainStoryboard_iPhone.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -240,7 +260,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NavController/NavController-Prefix.pch";
 				INFOPLIST_FILE = "NavController/NavController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -251,7 +273,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NavController/NavController-Prefix.pch";
 				INFOPLIST_FILE = "NavController/NavController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

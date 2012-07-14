@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="1.1" toolsVersion="2182" systemVersion="11E53" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" initialViewController="fFx-NQ-0KR">
+    <dependencies>
+        <deployment defaultVersion="1296" identifier="iOS"/>
+        <development defaultVersion="4200" identifier="xcode"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1179"/>
+    </dependencies>
+    <scenes>
+        <!--Obi Wan View Controller - Obi-Wan Kenobi-->
+        <scene sceneID="b6r-os-xbz">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BRK-ie-j7c" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="JyT-Nv-gRv" customClass="ObiWanViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="he6-Rm-fQm">
+                        <rect key="frame" x="0.0" y="64" width="768" height="960"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="obi_wan_kenobi.jpg" id="1C3-pB-NHi">
+                                <rect key="frame" x="204" y="360" width="360" height="239"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="Obi-Wan Kenobi" id="6P9-TG-b6J"/>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="553" y="-169"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="RUF-vH-AYL">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="axr-0k-KGk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <navigationController id="dzL-IS-CTp" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="ZlZ-BC-4X1">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="HSO-3N-VPL" kind="relationship" relationship="rootViewController" id="DX8-Ol-7X3"/>
+                    </connections>
+                </navigationController>
+            </objects>
+            <point key="canvasLocation" x="-143" y="-1106"/>
+        </scene>
+        <!--Master View Controller-->
+        <scene sceneID="G40-Da-SYm">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x92-K8-BYM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="HSO-3N-VPL" customClass="MasterViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="uXm-vM-ehJ">
+                        <rect key="frame" x="0.0" y="64" width="320" height="788"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Who is that Jedi?" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="zT9-fF-TEV">
+                                <rect key="frame" x="94" y="383" width="132" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="779-Ee-LHJ"/>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="250" y="-1106"/>
+        </scene>
+        <!--Split View Controller-->
+        <scene sceneID="Ddk-kX-791">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YaQ-wb-Lpr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <splitViewController id="fFx-NQ-0KR" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <connections>
+                        <segue destination="dzL-IS-CTp" kind="relationship" relationship="masterViewController" id="zsl-Q7-NiI"/>
+                        <segue destination="PVW-u3-4wn" kind="relationship" relationship="detailViewController" id="gCe-FC-ibj"/>
+                    </connections>
+                </splitViewController>
+            </objects>
+            <point key="canvasLocation" x="-1131" y="-631"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="LEq-xg-7gT">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Qom-YD-2Ap" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <navigationController definesPresentationContext="YES" id="PVW-u3-4wn" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="7RI-Nj-AcS">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="JyT-Nv-gRv" kind="relationship" relationship="rootViewController" id="nhV-k0-5eR"/>
+                    </connections>
+                </navigationController>
+            </objects>
+            <point key="canvasLocation" x="-275" y="-169"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="obi_wan_kenobi.jpg" width="360" height="236"/>
+    </resources>
+    <classes>
+        <class className="MasterViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/MasterViewController.h"/>
+        </class>
+        <class className="ObiWanViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ObiWanViewController.h"/>
+        </class>
+    </classes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar" statusBarStyle="blackTranslucent"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>
